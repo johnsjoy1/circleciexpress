@@ -1,17 +1,7 @@
-<<<<<<< HEAD
 version: 2.1 
 orbs:
-node: circleci/node@3.0.0
+  node: circleci/node@3.0.0
 workflows:
-node-tests: 
-jobs:
-- node/test
-=======
-version: 2.1
-orbs:node: circleci/node@3.0.0
-workflows:
-  node-tests:
+  node-tests: 
     jobs:
       - node/test
-  
->>>>>>> 65d1a3182c80e6f09713388218c112dc679cb0d1
